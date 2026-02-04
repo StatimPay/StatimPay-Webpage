@@ -5,10 +5,19 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://statimpay.vercel.app"),
   title: {
     default: "Statim Pay - Modular Workforce Management Platform",
-    template: "%s | Statim Pay"
+    template: "%s | Statim Pay",
   },
-  description: "Scheduling, payroll, and earned wage access in one modular platform. Built for retail, hospitality, and multi-site operators.",
-  keywords: ["workforce management", "payroll software", "earned wage access", "employee scheduling", "retail workforce", "hospitality payroll", "multi-site management"],
+  description:
+    "Scheduling, payroll, and earned wage access in one modular platform. Built for retail, hospitality, and multi-site operators.",
+  keywords: [
+    "workforce management",
+    "payroll software",
+    "earned wage access",
+    "employee scheduling",
+    "retail workforce",
+    "hospitality payroll",
+    "multi-site management",
+  ],
   authors: [{ name: "Statim Pay" }],
   openGraph: {
     type: "website",
@@ -16,7 +25,8 @@ export const metadata: Metadata = {
     url: "https://statimpay.vercel.app",
     siteName: "Statim Pay",
     title: "Statim Pay - Modular Workforce Management Platform",
-    description: "Scheduling, payroll, and earned wage access in one modular platform. Built for retail, hospitality, and multi-site operators.",
+    description:
+      "Scheduling, payroll, and earned wage access in one modular platform. Built for retail, hospitality, and multi-site operators.",
     images: [
       {
         url: "/og-image.png",
@@ -29,7 +39,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Statim Pay - Modular Workforce Management Platform",
-    description: "Scheduling, payroll, and earned wage access in one modular platform.",
+    description:
+      "Scheduling, payroll, and earned wage access in one modular platform.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -45,9 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        {children}
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

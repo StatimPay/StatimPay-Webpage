@@ -2,10 +2,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Site Workforce Management",
-  description: "Centralized control with site-level autonomy. Manage workforce across multiple locations with unified policies and cross-location reporting.",
+  description:
+    "Centralized control with site-level autonomy. Manage workforce across multiple locations with unified policies and cross-location reporting.",
   openGraph: {
     title: "Multi-Site Workforce Management | Statim Pay",
-    description: "Centralized control with site-level autonomy for multi-location businesses.",
+    description:
+      "Centralized control with site-level autonomy for multi-location businesses.",
     url: "https://statimpay.vercel.app/industries/multisite",
   },
 };

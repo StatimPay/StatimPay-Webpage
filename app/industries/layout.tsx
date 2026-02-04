@@ -2,7 +2,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Industries",
-  description: "Workforce management solutions tailored for retail, hospitality, multi-site operations, and franchises. Industry-specific features that understand your business.",
+  description:
+    "Workforce management solutions tailored for retail, hospitality, multi-site operations, and franchises. Industry-specific features that understand your business.",
   openGraph: {
     title: "Industries | Statim Pay",
     description: "Workforce management solutions tailored for your industry.",

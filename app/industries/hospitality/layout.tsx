@@ -2,7 +2,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hospitality Workforce Management",
-  description: "Workforce management designed for hospitality. Role-based scheduling, break compliance, and tip management built for pubs and restaurants.",
+  description:
+    "Workforce management designed for hospitality. Role-based scheduling, break compliance, and tip management built for pubs and restaurants.",
   openGraph: {
     title: "Hospitality Workforce Management | Statim Pay",
     description: "Workforce management designed for pubs and restaurants.",
