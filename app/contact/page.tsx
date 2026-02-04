@@ -51,7 +51,7 @@ export default function ContactPage() {
         </div>
       </Section>
 
-      {/* Form Section */>
+      {/* Form Section */}
       <Section padding="pb-24">
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Main Form */}
