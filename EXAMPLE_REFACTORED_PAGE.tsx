@@ -123,7 +123,7 @@ export default function AboutPageExample() {
             {
               icon: Lightbulb,
               title: 'Simple by default',
-              description: 'Powerful software doesn't have to be complicated. We prioritize clarity and usability in everything we build.',
+              description: 'Powerful software does not have to be complicated. We prioritize clarity and usability in everything we build.',
             },
             {
               icon: Shield,
