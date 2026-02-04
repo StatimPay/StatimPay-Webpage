@@ -3,13 +3,13 @@
  * Copy this pattern for other pages
  */
 
-'use client'
+"use client";
 
-import { MarketingLayout } from '@/components/layouts/marketing-layout'
-import { Section, SectionHeader } from '@/components/layouts/section'
-import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
-import { Card, CardContent } from '@/components/ui/card'
+import { MarketingLayout } from "@/components/layouts/marketing-layout";
+import { Section, SectionHeader } from "@/components/layouts/section";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Target,
   Heart,
@@ -21,7 +21,7 @@ import {
   Utensils,
   Building2,
   ArrowRight,
-} from 'lucide-react'
+} from "lucide-react";
 
 export default function AboutPageExample() {
   return (
@@ -29,12 +29,16 @@ export default function AboutPageExample() {
       {/* Hero Section */}
       <Section padding="pt-32 pb-20 px-6" maxWidth="4xl">
         <div className="text-center space-y-6">
-          <Badge variant="outline" className="mb-2">About us</Badge>
+          <Badge variant="outline" className="mb-2">
+            About us
+          </Badge>
           <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-balance">
             Built for the people who power businesses
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            We're on a mission to give retail, hospitality, and multi-site operators the tools they need to manage their workforce with confidence, fairness, and control.
+            We're on a mission to give retail, hospitality, and multi-site
+            operators the tools they need to manage their workforce with
+            confidence, fairness, and control.
           </p>
         </div>
       </Section>
@@ -45,13 +49,17 @@ export default function AboutPageExample() {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold">Our mission</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Workforce management should be simple, not complicated. Fair, not frustrating. Empowering, not restricting.
+              Workforce management should be simple, not complicated. Fair, not
+              frustrating. Empowering, not restricting.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We believe every business, from single-site cafes to multi-location retail chains, deserves access to enterprise-grade workforce tools without enterprise complexity or cost.
+              We believe every business, from single-site cafes to
+              multi-location retail chains, deserves access to enterprise-grade
+              workforce tools without enterprise complexity or cost.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              That's why we built a modular platform that starts with what you need today and grows with you tomorrow.
+              That's why we built a modular platform that starts with what you
+              need today and grows with you tomorrow.
             </p>
           </div>
           <div className="aspect-square bg-gradient-to-br from-primary/10 to-background rounded-2xl border flex items-center justify-center p-8">
@@ -76,18 +84,21 @@ export default function AboutPageExample() {
           {[
             {
               icon: Store,
-              title: 'Retail',
-              description: 'From boutiques to national chains, manage seasonal peaks, part-time staff, and multi-location operations with ease.',
+              title: "Retail",
+              description:
+                "From boutiques to national chains, manage seasonal peaks, part-time staff, and multi-location operations with ease.",
             },
             {
               icon: Utensils,
-              title: 'Pubs & Restaurants',
-              description: 'Handle split shifts, role-based rotas, tip tracking, and break compliance for front and back of house teams.',
+              title: "Pubs & Restaurants",
+              description:
+                "Handle split shifts, role-based rotas, tip tracking, and break compliance for front and back of house teams.",
             },
             {
               icon: Building2,
-              title: 'Multi-site Operators',
-              description: 'Centralize policy management while giving site managers the autonomy they need to run their locations.',
+              title: "Multi-site Operators",
+              description:
+                "Centralize policy management while giving site managers the autonomy they need to run their locations.",
             },
           ].map((industry, i) => (
             <Card key={i} className="border-2">
@@ -117,18 +128,21 @@ export default function AboutPageExample() {
           {[
             {
               icon: Heart,
-              title: 'People first',
-              description: 'We build tools that make work better for employees and employers alike. Fair pay, flexible scheduling, and financial wellness matter.',
+              title: "People first",
+              description:
+                "We build tools that make work better for employees and employers alike. Fair pay, flexible scheduling, and financial wellness matter.",
             },
             {
               icon: Lightbulb,
-              title: 'Simple by default',
-              description: 'Powerful software does not have to be complicated. We prioritize clarity and usability in everything we build.',
+              title: "Simple by default",
+              description:
+                "Powerful software does not have to be complicated. We prioritize clarity and usability in everything we build.",
             },
             {
               icon: Shield,
-              title: 'Trust & transparency',
-              description: 'Data security, responsible access policies, and clear terms. No hidden fees, no dark patterns, no surprises.',
+              title: "Trust & transparency",
+              description:
+                "Data security, responsible access policies, and clear terms. No hidden fees, no dark patterns, no surprises.",
             },
           ].map((value, i) => (
             <div key={i} className="space-y-4">
@@ -149,7 +163,8 @@ export default function AboutPageExample() {
         <div className="text-center space-y-6">
           <h2 className="text-3xl font-bold">Ready to see it in action?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Book a personalized demo and see how our platform can transform your workforce operations
+            Book a personalized demo and see how our platform can transform your
+            workforce operations
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button size="lg" className="h-12 px-8">
@@ -163,5 +178,5 @@ export default function AboutPageExample() {
         </div>
       </Section>
     </MarketingLayout>
-  )
+  );
 }
