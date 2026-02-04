@@ -1,4 +1,4 @@
-# Statim Pay Landing Page
+# StatimPay Landing Page
 
 A modern, modular workforce management platform landing page built with Next.js 14, React, and Tailwind CSS.
 
@@ -7,7 +7,7 @@ A modern, modular workforce management platform landing page built with Next.js 
 - **Modular Design**: Showcase for WFM, Payroll, and EWA modules
 - **Responsive**: Mobile-first design that works on all devices
 - **Modern Stack**: Next.js 14 with App Router, TypeScript, Tailwind CSS
-- **Light Mode Only**: Clean, professional light theme
+- **Design System**: Consistent spacing, colors, and components
 - **No Authentication**: Public landing page - no login required
 
 ## Getting Started
@@ -48,6 +48,9 @@ npm start
 │   ├── contact/
 │   └── security/
 ├── components/
+│   ├── layouts/                # Layout components
+│   │   ├── marketing-layout.tsx
+│   │   └── section.tsx
 │   ├── marketing/              # Marketing components
 │   │   ├── marketing-header.tsx
 │   │   └── marketing-footer.tsx
@@ -55,10 +58,6 @@ npm start
 │       ├── button.tsx
 │       ├── card.tsx
 │       └── ...
-├── ui/                         # Custom UI components
-│   ├── page-layout.tsx
-│   ├── stat-card.tsx
-│   └── status-badge.tsx
 └── lib/
     └── utils.ts                # Utility functions
 ```
@@ -80,14 +79,14 @@ npm start
 
 The site is branded as "Statim Pay" with an "S" logo. To change:
 
-1. Update logo in `components/marketing/marketing-header.tsx` (line 27)
-2. Update company name in `components/marketing/marketing-header.tsx` (line 29)
-3. Update footer branding in `components/marketing/marketing-footer.tsx` (line 48-50)
+1. Update logo in `components/marketing/marketing-header.tsx`
+2. Update company name throughout components
+3. Update footer branding in `components/marketing/marketing-footer.tsx`
 4. Update metadata in `app/layout.tsx`
 
 ### Colors
 
-Edit color tokens in `app/globals.css` (lines 6-86) to change the color scheme.
+Edit color tokens in `app/globals.css` to change the color scheme.
 
 ### Content
 
@@ -99,7 +98,7 @@ Edit color tokens in `app/globals.css` (lines 6-86) to change the color scheme.
 
 - **Framework**: Next.js 14
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS with OKLCH colors
+- **Styling**: Tailwind CSS with HSL colors
 - **UI Components**: shadcn/ui (Radix UI primitives)
 - **Icons**: Lucide React
 
